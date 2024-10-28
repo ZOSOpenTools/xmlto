@@ -2,6 +2,7 @@
 XMLTO_VERSION="0.0.28"
 
 export ZOPEN_BUILD_LINE="STABLE"
+export ZOPEN_CATEGORIES="documentation"
 export ZOPEN_STABLE_URL="https://releases.pagure.org/xmlto/xmlto-${XMLTO_VERSION}.tar.gz"
 export ZOPEN_STABLE_DEPS="make zoslib bash grep getopt diffutils flex"
 export ZOPEN_EXTRA_CONFIGURE_OPTS="BASH=\"bash\" SED=\"sed\" GREP=\"grep\" XMLLINT=\"xmllint\" XSLTPROC=\"xsltproc\""
