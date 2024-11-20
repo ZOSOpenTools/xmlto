@@ -1,5 +1,5 @@
 # bump: xmlto-version /XMLTO_VERSION="(.*)"/ https://releases.pagure.org/xmlto|re:/href="xmlto-([\d.]+).tar.gz/$1/|semver:*
-XMLTO_VERSION="0.0.28"
+XMLTO_VERSION="0.0.29"
 
 export ZOPEN_BUILD_LINE="STABLE"
 export ZOPEN_CATEGORIES="documentation"
